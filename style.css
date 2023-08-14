@@ -1,0 +1,58 @@
+.main {
+  background-image: url(./chat-background.png);
+  object-fit: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.form-body {
+  display: flex;
+  background: rgba(181, 189, 61, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1rem;
+  height: 100%;
+}
+
+.left-side,
+.sign-up-side {
+  background: rgb(223 218 107 / 14%);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(233, 224, 233, 0.13);
+  position: relative;
+  transition: all ease-in-out 0.5s;
+}
+
+.sign-up-btn,
+.sign-in-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: rgb(49, 52, 194);
+  transition: all ease 0.3s;
+  &:hover {
+    text-decoration: underline;
+    color: rgb(224, 219, 108);
+  }
+}
+.form-header {
+  color: rgb(49, 52, 194);
+}
+
+.right-side {
+  transform: translateX(60%);
+  transition: all ease-in-out 0.5s;
+}
+.right-side img {
+  width: 100%;
+}
+
+.sign-up-side {
+  transform: translateX(110%);
+}
