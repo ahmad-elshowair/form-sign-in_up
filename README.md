@@ -9,7 +9,7 @@ a chat it form to sign in and up
 
 ### UI Design
 
-![Ui design] ('./assets/signin-side.png)
-![Ui design] ('./assets/signup-side.png)
+![Ui design](./assets/signin-side.png)
+![Ui design](./assets/signup-side.png)
 
 design by [Ahmad Elshowair](https://github.com/ahmad-elshowair)
